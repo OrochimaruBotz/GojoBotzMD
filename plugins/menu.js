@@ -7,7 +7,7 @@ exports.run = {
       isPrefix
    }) => {
       try {
-      let captions = ` ❑  *I N F O - B O T*\n\n◦  Sistem otomatis (WhatsApp Bot) yang dapat membantu untuk melakukan sesuatu, mencari dan mendapatkan data/informasi hanya melalui WhatsApp.\n\n❑ *N O T E* \n\n◦   Gunakan bot di private message agar bot merespon dengan cepat, \n\n◦  Beri jeda  yah kak ｡⁠◕⁠‿⁠◕⁠｡\nSource code: https://youtu.be/MGDsPKQFVAo
+      let captions = ` ❑  *I N F O - B O T*\n\n◦  Sistem otomatis (WhatsApp Bot) yang dapat membantu untuk melakukan sesuatu, mencari dan mendapatkan data/informasi hanya melalui WhatsApp.\n\n❑ *N O T E* \n\n◦   Gunakan bot di private message agar bot merespon dengan cepat, \n\n◦  Beri jeda  yah kak ｡⁠◕⁠‿⁠◕⁠｡\nSource code: https://neoxr-bot/neoxr-bot
  ❑  *U S E R - I N F O*
       
 ◦  ${isPrefix}limit 
@@ -168,14 +168,11 @@ exports.run = {
 ◦  ${isPrefix}list 
 ◦  ${isPrefix}owner 
 ◦  ${isPrefix}premium 
-◦  ${isPrefix}runtime
-❑ *T Q - T O*
-◦ Swift
-◦ FARUQOFC`
+◦  ${isPrefix}runtime`
       client.sendMessageModify(m.chat, captions, m, {
-               title: 'Kanna bot',
+               title: 'GojoBotzMD',
                largeThumb: true,
-               thumbnail: await Func.fetchBuffer('https://telegra.ph/file/d5c31ad3dfeb93c67171c.jpg'),
+               thumbnail: await Func.fetchBuffer('https://telegra.ph/file/da06a9577ab822b378f6d.jpg'),
                url: ''
             })
       } catch (e) {
