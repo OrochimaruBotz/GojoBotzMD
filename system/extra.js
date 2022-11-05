@@ -273,7 +273,7 @@ Socket = (...args) => {
       let list = []
       contact.map(v => list.push({
          displayName: v.name,
-         vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:${v.name}\nORG:Neoxr Nework\nTEL;type=CELL;type=VOICE;waid=${v.number}:${PhoneNumber('+' + v.number).getNumber('international')}\nEMAIL;type=Email:admin@neoxr.my.id\nURL;type=Website:https://neoxr.my.id\nADR;type=Location:;;Unknown;;\nOther:${v.about}\nEND:VCARD`
+         vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:${v.name}\nORG:Gojo Nework\nTEL;type=CELL;type=VOICE;waid=${v.number}:${PhoneNumber('+' + v.number).getNumber('international')}\nEMAIL;type=Email:admin@gojo.my.id\nURL;type=Website:https://github.com/OrochimaruBotz\nADR;type=Location:;;Unknown;;\nOther:${v.about}\nEND:VCARD`
       }))
       return client.sendMessage(jid, {
          contacts: {
