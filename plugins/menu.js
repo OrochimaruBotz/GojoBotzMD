@@ -173,9 +173,10 @@ exports.run = {
 
 ❑  *Main Menu*
 
-◦  ${isPrefix}botinfo
+◦  ${isPrefix}sc
 ◦  ${isPrefix}botstat 
 ◦  ${isPrefix}checkapi 
+◦  ${isPrefix}tnc
 ◦  ${isPrefix}groups 
 ◦  ${isPrefix}hitdaily 
 ◦  ${isPrefix}hitstat 
