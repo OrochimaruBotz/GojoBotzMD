@@ -140,7 +140,7 @@ exports.run = {
 ◦  ${isPrefix}+prem *mention or reply*
 ◦  ${isPrefix}autodownload *on / off*
 ◦  ${isPrefix}autoread *on / off*
-◦  $isPrefix}antispam *on /off*
+◦  ${isPrefix}antispam *on /off*
 ◦  ${isPrefix}backup 
 ◦  ${isPrefix}ban *mention or reply*
 ◦  ${isPrefix}bc *text or reply media*
