@@ -12,7 +12,7 @@ exports.run = {
       
 ◦  ${isPrefix}limit 
 ◦  ${isPrefix}me 
-◦  ${isprefix}profile
+◦  ${isPrefix}profile
 
 ❑  *Group Menu*
 
@@ -20,7 +20,7 @@ exports.run = {
 ◦  ${isPrefix}ava *mention or reply*
 ◦  ${isPrefix}delete *reply chat*
 ◦  ${isPrefix}q *reply chat*
-◦  ${isprefix}linkgroup
+◦  ${isPrefix}linkgroup
 
 ❑  *Converter Menu*
 
