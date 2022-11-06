@@ -1,7 +1,7 @@
 module.exports = {
   name: "menfess",
   alias: ["menfess"],
-  category: "anonymous",
+  category: "special",
   desc: "Pesan rahasia",
   isPrivate: true,
   async run({msg,conn},{args,prefix,q}){
