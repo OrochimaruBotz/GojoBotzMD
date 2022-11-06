@@ -20,7 +20,7 @@ exports.run = {
 ◦  ${isPrefix}ava *mention or reply*
 ◦  ${isPrefix}delete *reply chat*
 ◦  ${isPrefix}q *reply chat*
-◦  ${isprefix}link
+◦  ${isprefix}linkgroup
 
 ❑  *Converter Menu*
 
