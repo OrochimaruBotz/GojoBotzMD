@@ -61,13 +61,16 @@ exports.run = {
 ◦  ${isPrefix}huluh *text or reply chat*
 ◦  ${isPrefix}pinterest *query*
 ◦  ${isPrefix}response *link*
+◦  ${isPrefix}sholat *city*
+◦  ${isPrefix}lyrics *Song*
 ◦  ${isPrefix}server 
+◦  ${isPrefix}google *text*
 ◦  ${isPrefix}wallpaper *query*
 
 ❑  *J A D I - B O T*
 
-◦  ${isprefix}jadibot
-◦  ${ispreifx}listjadibot
+◦  ${isPrefix}jadibot
+◦  ${isPreifx}listjadibot
 
 ❑  *T E X T - M A K E R*
 
@@ -105,6 +108,8 @@ exports.run = {
 ◦  ${isPrefix}antidelete *on / off*
 ◦  ${isPrefix}antilink *on / off*
 ◦  ${isPrefix}antivirtex *on / off*
+◦  ${isPrefix}antidetector *on / off*
+◦  ${isPrefix}antitagall *on / off*
 ◦  ${isPrefix}demote *mention or reply*
 ◦  ${isPrefix}everyone *text (optional)*
 ◦  ${isPrefix}filter *on / off*
@@ -135,6 +140,7 @@ exports.run = {
 ◦  ${isPrefix}+prem *mention or reply*
 ◦  ${isPrefix}autodownload *on / off*
 ◦  ${isPrefix}autoread *on / off*
+◦  $isPrefix}antispam *on /off*
 ◦  ${isPrefix}backup 
 ◦  ${isPrefix}ban *mention or reply*
 ◦  ${isPrefix}bc *text or reply media*
@@ -167,6 +173,7 @@ exports.run = {
 
 ❑  *S P E C I A L*
 
+◦  ${isPrefix}botinfo
 ◦  ${isPrefix}botstat 
 ◦  ${isPrefix}checkapi 
 ◦  ${isPrefix}groups 
