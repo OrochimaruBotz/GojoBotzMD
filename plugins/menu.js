@@ -7,11 +7,12 @@ exports.run = {
       isPrefix
    }) => {
       try {
-      let captions = ` ❑  *I N F O - B O T*\n\n◦  Sistem otomatis (WhatsApp Bot) yang dapat membantu untuk melakukan sesuatu, mencari dan mendapatkan data/informasi hanya melalui WhatsApp.\n\n❑ *N O T E* \n\n◦   Gunakan bot di private message agar bot merespon dengan cepat, \n\n◦  Beri jeda  yah kak ｡⁠◕⁠‿⁠◕⁠｡\nSource code: https://neoxr-bot/neoxr-bot
+      let captions = ` ❑  *I N F O - B O T*\n\n◦  Sistem otomatis (WhatsApp Bot) yang dapat membantu untuk melakukan sesuatu, mencari dan mendapatkan data/informasi hanya melalui WhatsApp.\n\n❑ *N O T E* \n\n◦   Gunakan bot di private message agar bot merespon dengan cepat, \n\n◦  Beri jeda  yah kak ｡⁠◕⁠‿⁠◕⁠｡\n Source code: https://neoxr-bot/neoxr-bot
  ❑  *U S E R - I N F O*
       
 ◦  ${isPrefix}limit 
 ◦  ${isPrefix}me 
+◦  ${isprefix}limit
 
 ❑  *G R O U P*
 
@@ -24,7 +25,7 @@ exports.run = {
 
 ◦  ${isPrefix}emojimix *emoji + emoji*
 ◦  ${isPrefix}sticker *reply media*
-◦  ${isPrefix}swm *packname | author*
+◦  ${isPrefix}wm *packname | author*
 ◦  ${isPrefix}take *packname | author*
 ◦  ${isPrefix}toimg *reply sticker*
 ◦  ${isPrefix}tomp3 *reply media*
@@ -61,6 +62,11 @@ exports.run = {
 ◦  ${isPrefix}response *link*
 ◦  ${isPrefix}server 
 ◦  ${isPrefix}wallpaper *query*
+
+❑  *J A D I - B O T*
+
+◦  ${isprefix}jadibot
+◦  ${ispreifx}listjadibot
 
 ❑  *T E X T - M A K E R*
 
@@ -170,7 +176,7 @@ exports.run = {
 ◦  ${isPrefix}premium 
 ◦  ${isPrefix}runtime`
       client.sendMessageModify(m.chat, captions, m, {
-               title: 'GojoBotzMD',
+               title: '© GojoBotzMD v${global.version} (Public Bot)',
                largeThumb: true,
                thumbnail: await Func.fetchBuffer('https://telegra.ph/file/da06a9577ab822b378f6d.jpg'),
                url: ''
