@@ -1,5 +1,5 @@
 exports.run = {
-   usage: ['link'],
+   usage: ['linkgroup'],
    hidden: ['getlink'],
    category: 'group',
    async: async (m, {
