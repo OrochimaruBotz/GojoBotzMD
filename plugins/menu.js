@@ -70,7 +70,7 @@ exports.run = {
 ❑  *Jadibot Menu*
 
 ◦  ${isPrefix}jadibot
-◦  ${isPreifx}listjadibot
+◦  ${isPrefix}listjadibot
 
 ❑  *Anonymous Menu*
 
