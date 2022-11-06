@@ -8,13 +8,13 @@ exports.run = {
    }) => {
       try {
       let captions = ` ❑  *I N F O - B O T*\n\n◦  Sistem otomatis (WhatsApp Bot) yang dapat membantu untuk melakukan sesuatu, mencari dan mendapatkan data/informasi hanya melalui WhatsApp.\n\n❑ *N O T E* \n\n◦   Gunakan bot di private message agar bot merespon dengan cepat, \n\n◦  Beri jeda  yah kak ｡⁠◕⁠‿⁠◕⁠｡\n Source code: https://neoxr-bot/neoxr-bot
- ❑  *U S E R - I N F O*
+ ❑  *User Info*
       
 ◦  ${isPrefix}limit 
 ◦  ${isPrefix}me 
-◦  ${isprefix}limit
+◦  ${isprefix}profile
 
-❑  *G R O U P*
+❑  *Group Menu*
 
 ◦  ${isPrefix}afk *reason (optional)*
 ◦  ${isPrefix}ava *mention or reply*
@@ -22,7 +22,7 @@ exports.run = {
 ◦  ${isPrefix}q *reply chat*
 ◦  ${isprefix}link
 
-❑  *C O N V E R T E R*
+❑  *Converter Menu*
 
 ◦  ${isPrefix}emojimix *emoji + emoji*
 ◦  ${isPrefix}sticker *reply media*
@@ -32,7 +32,7 @@ exports.run = {
 ◦  ${isPrefix}tomp3 *reply media*
 ◦  ${isPrefix}tovn *reply media*
 
-❑  *D O W N L O A D E R*
+❑  *Downloader-Menu*
 
 ◦  ${isPrefix}apk *query*
 ◦  ${isPrefix}fb *link*
@@ -51,7 +51,7 @@ exports.run = {
 ◦  ${isPrefix}ytmp3 *link*
 ◦  ${isPrefix}ytmp4 *link*
 
-❑  *U T I L I T I E S*
+❑  *Utilise Menu*
 
 ◦  ${isPrefix}brainly *question*
 ◦  ${isPrefix}halah *text or reply chat*
@@ -67,12 +67,12 @@ exports.run = {
 ◦  ${isPrefix}google *text*
 ◦  ${isPrefix}wallpaper *query*
 
-❑  *J A D I - B O T*
+❑  *Jadibot Menu*
 
 ◦  ${isPrefix}jadibot
 ◦  ${isPreifx}listjadibot
 
-❑  *T E X T - M A K E R*
+❑  *TextMaker Menu*
 
 ◦  ${isPrefix}blackpink *text*
 ◦  ${isPrefix}blood *text*
@@ -86,7 +86,7 @@ exports.run = {
 ◦  ${isPrefix}papercut *text*
 ◦  ${isPrefix}slice *text*
 
-❑  *I M A G E - E F F E C T*
+❑  *ImageEffect Menu*
 
 ◦  ${isPrefix}alien *reply foto*
 ◦  ${isPrefix}brick *reply foto*
@@ -103,7 +103,7 @@ exports.run = {
 ◦  ${isPrefix}splash *reply foto*
 ◦  ${isPrefix}staco *reply foto*
 
-❑  *A D M I N - T O O L S*
+❑  *Admin Menu*
 
 ◦  ${isPrefix}antidelete *on / off*
 ◦  ${isPrefix}antilink *on / off*
@@ -126,7 +126,7 @@ exports.run = {
 ◦  ${isPrefix}setwelcome *text*
 ◦  ${isPrefix}welcome *on / off*
 
-❑  *O W N E R*
+❑  *Owner Menu*
 
 ◦  ${isPrefix}-cmdstic *text / command*
 ◦  ${isPrefix}-mimic *mention or reply*
@@ -171,7 +171,7 @@ exports.run = {
 ◦  ${isPrefix}unblock *mention or reply*
 ◦  ${isPrefix}update 
 
-❑  *S P E C I A L*
+❑  *Main Menu*
 
 ◦  ${isPrefix}botinfo
 ◦  ${isPrefix}botstat 
