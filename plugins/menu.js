@@ -72,6 +72,13 @@ exports.run = {
 ◦  ${isPrefix}jadibot
 ◦  ${isPreifx}listjadibot
 
+❑  *Anonymous Menu*
+
+◦  ${isPrefix}start
+◦  ${isPrefix}stop
+◦  ${isPrefix}next
+◦  ${isPrefix}menfess
+
 ❑  *TextMaker Menu*
 
 ◦  ${isPrefix}blackpink *text*
