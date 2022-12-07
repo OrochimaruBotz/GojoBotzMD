@@ -67,11 +67,6 @@ exports.run = {
 ◦  ${isPrefix}google *text*
 ◦  ${isPrefix}wallpaper *query*
 
-❑  *Jadibot Menu*
-
-◦  ${isPrefix}jadibot
-◦  ${isPrefix}listjadibot
-
 ❑  *Anonymous Menu*
 
 ◦  ${isPrefix}start
@@ -190,7 +185,8 @@ exports.run = {
 ◦  ${isPrefix}list 
 ◦  ${isPrefix}owner 
 ◦  ${isPrefix}premium 
-◦  ${isPrefix}runtime`
+◦  ${isPrefix}runtime
+Simple Bot By Humanz`
       client.sendMessageModify(m.chat, captions, m, {
                title: '© GojoBotzMD v${global.version} (Public Bot)',
                largeThumb: true,
